@@ -1,0 +1,16 @@
+/* 
+    Created on : 31-gen-2017, 10.15.27
+    Author     : kiks
+*/
+
+.fadein { 
+    position:   relative;
+    height:     450px;
+    width:      800px;
+}
+
+.fadein img {
+    position:   absolute;
+    left:       0;
+    top:        0;
+}

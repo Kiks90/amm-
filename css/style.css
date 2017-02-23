@@ -1,0 +1,108 @@
+/* 
+    Created on : 28-gen-2017, 17.45.11
+    Author     : kiks
+*/
+
+html, body{
+    margin:      0; 
+    padding:     0;
+    font-family: "Trebuchet MS", Georgia, Arial, sans-serif; 
+    font-size:   100%;
+    height:      100%;
+}
+
+#container {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -50px;
+}
+
+div.contenuto {
+    max-width: 900px;
+    height: auto;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+div.contenuto2 {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+div.contenuto img {
+     padding: 25px;
+}
+
+body{
+    background: url('../media/wallpaper.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#body{
+    clear:         both;
+    color:         black;
+}
+
+#position{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+#contenuto{
+    padding-left:  10%;
+    padding-right: 10%;
+}
+
+#header{
+    height:        270px;
+}
+
+#footer {
+    color:       white;
+    bottom:      0px;
+    line-height: 2.5em;
+    border-top:  1px solid #003366;
+    text-align:  center;
+}
+
+#footer, #push {
+    height: 49px;
+    clear: both;
+}
+
+#news{
+    float:         left;
+    border-left:   50;
+    border-top:    0;
+    color:         black;
+}
+
+#login{
+    float:         left;
+    border-left:   50;
+    border-top:    0;
+    color:         black;
+}
+
+h1.logo{
+    background: url('../media/LOGO.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1.logo a {
+    height:      250px;
+    width:       384px;
+    overflow:    hidden;
+    line-height: 9999em;
+    display:     block;
+}
+
+a:link, a:visited{
+    color: black;
+}
