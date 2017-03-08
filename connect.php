@@ -6,12 +6,12 @@
     }
 
     //Connessione MySQL
-    $connessione=mysql_connect("localhost","felkun","9006SonicS1948");
+    $connessione=mysql_connect("localhost","mulasFederico","pernice5150");
     if(!$connessione) {
         print("Connessione al server fallita");
         exit;
     }
-    $DB = mysql_select_DB("my_felkun");
+    $DB = mysql_select_DB("amm2015_mulasFederico");
     if(!$DB)
     {
         print("Connessione al database fallita");
