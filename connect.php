@@ -11,7 +11,7 @@
         print("Connessione al server fallita");
         exit;
     }
-    $DB = mysql_select_DB("amm2015_mulasFederico");
+    $DB = mysql_select_DB("amm15_mulasFederico");
     if(!$DB)
     {
         print("Connessione al database fallita");
